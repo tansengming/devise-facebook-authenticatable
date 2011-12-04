@@ -4,7 +4,7 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
     if @user.persisted?
       flash[:notice] = I18n.t "devise.omniauth_callbacks.success", :kind => "Facebook"
       sign_in :user, @user, :event => :authentication
-      render :text => 'Logged In'
+      render 'shared/close_popup'
     else
       session["devise.facebook_data"] = request.env["omniauth.auth"]
       flash[:error] = "There was a problem with logging in. Please try again."

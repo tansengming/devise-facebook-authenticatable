@@ -1,2 +1,2 @@
 %p
-  = link_to 'Facebook Login', user_omniauth_authorize_path(:facebook)
+  = link_to "Log in with Facebook", omniauth_authorize_path(:user, :facebook), :class => "popup", :"data-width" => 600, :"data-height" => 400
