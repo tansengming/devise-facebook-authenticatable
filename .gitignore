@@ -1,3 +1,4 @@
+.rbenv-version
 database.yml
 .bundle
 db/*.sqlite3
