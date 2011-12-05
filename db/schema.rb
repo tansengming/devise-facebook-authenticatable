@@ -15,13 +15,6 @@ ActiveRecord::Schema.define(:version => 20111203142409) do
 
   create_table "users", :force => true do |t|
     t.string   "facebook_token"
-    t.string   "name"
-    t.string   "username"
-    t.string   "email"
-    t.string   "first_name"
-    t.string   "last_name"
-    t.string   "sex"
-    t.string   "avatar_url"
     t.string   "facebook_id"
     t.datetime "created_at"
     t.datetime "updated_at"
