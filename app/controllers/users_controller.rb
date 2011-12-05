@@ -4,5 +4,6 @@ class UsersController < ApplicationController
   end
 
   def welcome
+    redirect_to :action => 'sign_in' unless user_signed_in?
   end
 end
