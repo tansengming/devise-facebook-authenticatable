@@ -9,6 +9,7 @@ gem 'heroku'
 gem 'haml'
 gem 'unicorn'
 gem 'jquery-rails'
+gem 'twitter-bootstrap-rails'
 
 group :assets do
   gem 'sass-rails',   '~> 3.1.4'
