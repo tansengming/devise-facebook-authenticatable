@@ -10,6 +10,7 @@ Clone & run. Feel free to update the User schema and model to fit your needs. I 
 
 - tests
 - better handling of authentication failures
+- I should really build a generator for this one day.
 
 ## References & Sources
 
